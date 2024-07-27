@@ -146,8 +146,8 @@ if __name__ == "__main__":
         text_2 = f2.read()
 
     # Підрядки для тестування
-    pattern_existing = "example"  # замініть на підрядок, який дійсно існує в текстах
-    pattern_nonexisting = "nonexistentpattern"  # замініть на вигаданий підрядок
+    pattern_existing = "хеш-таблиці"  
+    pattern_nonexisting = "графи" 
 
     # Тестування для статті 1
     results_1 = test_algorithms(text_1, pattern_existing, pattern_nonexisting)
